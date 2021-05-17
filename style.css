@@ -1,0 +1,906 @@
+html, body { 
+    min-height: 100vh; 
+    padding-top: 10px;
+}
+
+#wrapper {
+     width: 100%;
+     max-width: 900px;
+     margin: 0 auto;
+     position: relative;
+}
+
+/* THE CIRCLE */
+ .prems-fading-circle { 
+     margin: 120px auto;
+     width: 100%;
+     max-width: 350px;
+     height: 350px;
+     position: relative;
+}
+ .prems-fading-circle .prems-circle {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+     z-index: 1;
+}
+ .prems-fading-circle .prems-circle > div {
+     content: '';
+     display: block;
+     margin: 0 auto; 
+     width: 10px;
+     height: 10px;
+     background-color: #42cc18;
+     border-radius: 100%;
+     opacity: 0.3;
+     -webkit-animation: prems-circleFadeDelay 1s normal forwards ease-in-out;
+     -moz-animation: prems-circleFadeDelay 1s normal forwards ease-in-out;
+     animation: prems-circleFadeDelay 1s normal forwards ease-in-out;
+}
+
+/*=========================================*/
+/* 
+ .prems-fading-circle .prems-circle1 > div {
+    animation-delay:10.25s;
+}
+
+ .prems-fading-circle .prems-circle2 > div {
+    animation-delay:10.5s;
+}
+
+ .prems-fading-circle .prems-circle2 {
+     -webkit-transform: rotate(9deg); 
+     -ms-transform: rotate(9deg);
+     transform: rotate(9deg);
+}
+
+ .prems-fading-circle .prems-circle3 > div {
+    animation-delay:10.75s;
+}
+
+ .prems-fading-circle .prems-circle3 {
+     -webkit-transform: rotate(18deg);
+     -ms-transform: rotate(18deg);
+     transform: rotate(18deg);
+}
+
+ .prems-fading-circle .prems-circle4 > div {
+    animation-delay:11s; 
+}
+
+ .prems-fading-circle .prems-circle4 {
+     -webkit-transform: rotate(27deg);
+     -ms-transform: rotate(27deg);
+     transform: rotate(27deg);
+} 
+*/
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle5 > div {
+    animation-delay:0; 
+    background: url("https://www.premiums.mobi/userfiles/premiums.mobi/images/Rondje_01.png") no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin-top: -7px;
+    opacity:1;
+}
+
+.prems-fading-circle .prems-circle5 {
+    -webkit-transform: rotate(36deg);
+    -ms-transform: rotate(36deg);
+    transform: rotate(36deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle6 > div {
+    animation-delay:1.25s;
+}
+
+.prems-fading-circle .prems-circle6 {
+    -webkit-transform: rotate(48deg);
+    -ms-transform: rotate(48deg);
+    transform: rotate(48deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle7 > div {
+    animation-delay:1.5s;
+}
+
+.prems-fading-circle .prems-circle7 {
+    -webkit-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+
+/*=========================================*/
+
+.prems-fading-circle .prems-circle8 > div {
+    animation-delay:1.75s;
+}
+
+.prems-fading-circle .prems-circle8 {
+    -webkit-transform: rotate(72deg);
+    -ms-transform: rotate(72deg);
+    transform: rotate(72deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle9 > div{
+    animation-delay:2s;
+}
+
+.prems-fading-circle .prems-circle9 {
+    -webkit-transform: rotate(84deg);
+    -ms-transform: rotate(84deg);
+    transform: rotate(84deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle10 > div {
+    animation-delay:2.25s;
+}
+
+.prems-fading-circle .prems-circle10 {
+    -webkit-transform: rotate(96deg);
+    -ms-transform: rotate(96deg);
+    transform: rotate(96deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle11 > div {
+    animation-delay:2.5s;
+    background: url("https://www.premiums.mobi/userfiles/premiums.mobi/images/Rondje_02.png");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin-top: -7px;
+    opacity:1;
+}
+
+.prems-fading-circle .prems-circle11 {
+    -webkit-transform: rotate(108deg);
+    -ms-transform: rotate(108deg);
+    transform: rotate(108deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle12 > div {
+    animation-delay:2.75s;
+}
+
+.prems-fading-circle .prems-circle12 {
+    -webkit-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle13 > div {
+    animation-delay:3s;
+}
+
+.prems-fading-circle .prems-circle13 {
+    -webkit-transform: rotate(132deg);
+    -ms-transform: rotate(132deg);
+    transform: rotate(132deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle14 > div {
+    animation-delay:3.25s;
+}
+
+.prems-fading-circle .prems-circle14 {
+    -webkit-transform: rotate(144deg);
+    -ms-transform: rotate(144deg);
+    transform: rotate(144deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle15 > div {
+    animation-delay:3.5s;
+}
+
+.prems-fading-circle .prems-circle15 {
+    -webkit-transform: rotate(156deg);
+    -ms-transform: rotate(156deg);
+    transform: rotate(156deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle16 > div {
+    animation-delay:3.75s;
+}
+
+.prems-fading-circle .prems-circle16 {
+    -webkit-transform: rotate(168deg);
+    -ms-transform: rotate(168deg);
+    transform: rotate(168deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle17 > div {
+    animation-delay:4s;
+    background: url("https://www.premiums.mobi/userfiles/premiums.mobi/images/Rondje_03.png");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin-top: -7px;
+    opacity:1;
+}
+
+.prems-fading-circle .prems-circle17 {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle18 > div {
+    animation-delay:4.25s;
+}
+
+.prems-fading-circle .prems-circle18 {
+    -webkit-transform: rotate(192deg);
+    -ms-transform: rotate(192deg);
+    transform: rotate(192deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle19 > div {
+    animation-delay:4.5s;
+}
+
+.prems-fading-circle .prems-circle19 {
+    -webkit-transform: rotate(204deg);
+    -ms-transform: rotate(204deg);
+    transform: rotate(204deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle20 > div {
+    animation-delay:4.75s;
+}
+
+.prems-fading-circle .prems-circle20 {
+    -webkit-transform: rotate(216deg);
+    -ms-transform: rotate(216deg);
+    transform: rotate(216deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle21 > div {
+    animation-delay:5s;
+}
+
+.prems-fading-circle .prems-circle21 {
+    -webkit-transform: rotate(228deg);
+    -ms-transform: rotate(228deg);
+    transform: rotate(228deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle22 > div {
+    animation-delay:5.25s;
+}
+
+.prems-fading-circle .prems-circle22 {
+    -webkit-transform: rotate(240deg);
+    -ms-transform: rotate(240deg);
+    transform: rotate(240deg);
+}
+
+/*=========================================*/
+
+ /* .prems-fading-circle .prems-circle23 > div {
+    animation-delay:5.5s;
+}
+
+.prems-fading-circle .prems-circle23 {
+    -webkit-transform: rotate(252deg);
+    -ms-transform: rotate(252deg);
+    transform: rotate(252deg);
+} */
+
+/*=========================================*/
+
+ /* .prems-fading-circle .prems-circle24 > div {
+    animation-delay:5.75s;
+}
+
+.prems-fading-circle .prems-circle24 {
+    -webkit-transform: rotate(264deg);
+    -ms-transform: rotate(264deg);
+    transform: rotate(264deg);
+} */
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle23 > div {
+    animation-delay:5.5s;
+    background: url("https://www.premiums.mobi/userfiles/premiums.mobi/images/Rondje_04.png") no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin-top: -7px;
+    opacity:1;
+}
+
+.prems-fading-circle .prems-circle23 {
+    -webkit-transform: rotate(252deg);
+    -ms-transform: rotate(252deg);
+    transform: rotate(252deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle24 > div {
+    animation-delay:5.75s;
+}
+
+.prems-fading-circle .prems-circle24 {
+    -webkit-transform: rotate(264deg);
+    -ms-transform: rotate(264deg);
+    transform: rotate(264deg);
+} 
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle25 > div {
+    animation-delay:6.0s;
+}
+
+.prems-fading-circle .prems-circle25 {
+    -webkit-transform: rotate(276deg);
+    -ms-transform: rotate(276deg);
+    transform: rotate(276deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle26 > div {
+    animation-delay:6.25s;
+}
+
+.prems-fading-circle .prems-circle26 {
+    -webkit-transform: rotate(288deg);
+    -ms-transform: rotate(288deg);
+    transform: rotate(288deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle27 > div {
+    animation-delay:6.5s;
+}
+
+.prems-fading-circle .prems-circle27 {
+    -webkit-transform: rotate(300deg);
+    -ms-transform: rotate(300deg);
+    transform: rotate(300deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle28 > div {
+    animation-delay:6.75s;
+}
+
+.prems-fading-circle .prems-circle28 {
+    -webkit-transform: rotate(312deg);
+    -ms-transform: rotate(312deg);
+    transform: rotate(312deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle31 > div {
+    animation-delay:7.0s;
+    background: url("https://www.premiums.mobi/userfiles/premiums.mobi/images/Rondje_05.png");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin-top: -7px;
+    opacity:1;
+}
+
+.prems-fading-circle .prems-circle31 {
+    -webkit-transform: rotate(324deg);
+    -ms-transform: rotate(324deg);
+    transform: rotate(324deg);
+}
+
+/*=========================================*/
+
+
+ .prems-fading-circle .prems-circle32 > div {
+    animation-delay:7.25s;
+
+}
+
+ .prems-fading-circle .prems-circle32 {
+     -webkit-transform: rotate(336deg);
+     -ms-transform: rotate(336deg);
+     transform: rotate(336deg);
+}
+
+/*=========================================*/
+
+
+ .prems-fading-circle .prems-circle33 > div {
+    animation-delay:7.5s;
+}
+
+ .prems-fading-circle .prems-circle33 {
+     -webkit-transform: rotate(348deg);
+     -ms-transform: rotate(348deg);
+     transform: rotate(348deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle34 > div {
+    animation-delay:7.75s;
+}
+
+ .prems-fading-circle .prems-circle34 {
+     -webkit-transform: rotate(360deg);
+     -ms-transform: rotate(360deg);
+     transform: rotate(360deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle35 > div {
+    animation-delay:8.0s;
+}
+
+ .prems-fading-circle .prems-circle35 {
+     -webkit-transform: rotate(12deg);
+     -ms-transform: rotate(12deg);
+     transform: rotate(12deg);
+}
+
+/*=========================================*/
+
+ .prems-fading-circle .prems-circle36 > div {
+    animation-delay:8.25s;
+}
+
+ .prems-fading-circle .prems-circle36 {
+     -webkit-transform: rotate(24deg);
+     -ms-transform: rotate(24deg);
+     transform: rotate(24deg);
+}
+
+/*=========================================*/
+
+/*
+ .prems-fading-circle .prems-circle37 > div {
+    animation-delay:9s;
+    background: url("https://www.premiums.mobi/userfiles/premiums.mobi/images/Rondje_03.png");
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    height: 30px;
+    width: 30px;
+    margin-top: -7px;
+    opacity:1;
+}
+
+ .prems-fading-circle .prems-circle37 {
+     -webkit-transform: rotate(324deg);
+     -ms-transform: rotate(324deg);
+     transform: rotate(324deg);
+}
+
+  .prems-fading-circle .prems-circle38 > div {
+    animation-delay:9.25s;  
+}
+
+ .prems-fading-circle .prems-circle38 {
+     -webkit-transform: rotate(333deg);
+     -ms-transform: rotate(333deg);
+     transform: rotate(333deg);
+}
+
+ .prems-fading-circle .prems-circle39 > div {
+    animation-delay:9.5s;  
+}
+
+ .prems-fading-circle .prems-circle39 {
+     -webkit-transform: rotate(342deg);
+     -ms-transform: rotate(342deg);
+     transform: rotate(342deg);
+}
+
+ .prems-fading-circle .prems-circle40 > div {
+    animation-delay:9.75s;
+}
+
+ .prems-fading-circle .prems-circle40 {
+     -webkit-transform: rotate(351deg);
+     -ms-transform: rotate(351deg);
+     transform: rotate(351deg);
+}
+
+ .prems-fading-circle .prems-circle41 > div {
+    animation-delay:10s;
+} 
+
+ .prems-fading-circle .prems-circle41 {
+     transform: rotate(360deg);
+     -webkit-transform: rotate(360deg);
+     -ms-transform: rotate(360deg);
+} */
+
+
+
+/* == Animations ==*/
+
+
+@-moz-keyframes  prems-circleFadeDelay {
+     0%, 39% {
+         opacity: 0.3;
+    }
+     40%, 100% {
+         opacity: 1;
+    }
+}
+ @-moz-keyframes  prems-divAppear {
+     0%, 40% {
+         opacity: 0;
+    }
+     50%, 100% {
+         opacity: 1;
+    }
+        0%{ -moz-transform:scale(0); opacity:0;}
+        50%{ -moz-transform:scale(1.1); opacity:0.4; }
+        75%{ -moz-transform:scale(0.9); opacity:0.7;}
+        100%{ -moz-transform:scale(1); opacity:1;}
+}
+
+ @-webkit-keyframes prems-circleFadeDelay {
+     0%, 39% {
+         opacity: 0.3;
+    }
+     40%, 100% {
+         opacity: 1;
+    }
+}
+ @-webkit-keyframes prems-divAppear {
+     0%, 40% {
+         opacity: 0;
+    }
+     50%, 100% {
+         opacity: 1;
+    }
+        0%{ -moz-transform:scale(0); opacity:0;}
+        50%{ -moz-transform:scale(1.1); opacity:0.4; }
+        75%{ -moz-transform:scale(0.9); opacity:0.7;}
+        100%{ -moz-transform:scale(1); opacity:1;}
+}
+@keyframes  prems-circleFadeDelay {
+     0%, 39% {
+         opacity: 0.3;
+    }
+     40%, 100% {
+         opacity: 1;
+    }
+}
+ @keyframes  prems-divAppear {
+     0%, 40% {
+         opacity: 0;
+    }
+     50%, 100% {
+         opacity: 1;
+    }
+        0%{ -moz-transform:scale(0); opacity:0;}
+        50%{ -moz-transform:scale(1.1); opacity:0.4; }
+        75%{ -moz-transform:scale(0.9); opacity:0.7;}
+        100%{ -moz-transform:scale(1); opacity:1;}
+}
+
+
+/*++Circle inner++*/
+ .prems-fading-circle #inner {
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+     background-color: #E7E7E7;
+     padding: 10px;
+     border-radius: 50%;
+     width: 100%;
+     max-width: 250px;
+     height: 250px;
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+     box-shadow: 0 2px 5px 1px rgba(0,0,0,0.3);
+}
+ #inner h3 {
+     text-transform: uppercase;
+     text-align: center;
+     font-size: 1.7rem;
+}
+
+/*Container*/
+#wrapper .containr { 
+    width: 100%; 
+    max-width: 370px; 
+    padding: 10px 15px; 
+    position: absolute; 
+    right: 0; 
+    z-index: 1; 
+    top: 0; 
+    transition: all 1s ease-in-out; 
+    background-color: #3f3f37; 
+    color: #FFF; 
+    animation: prems-divAppear 2s normal forwards ease-in-out; 
+    -webkit-animation: prems-divAppear 2s normal forwards ease-in-out; 
+    -moz-animation: prems-divAppear 2s normal forwards ease-in-out; 
+    opacity: 0;  
+    font-size: 13px; 
+    font-family: Lato; 
+}
+
+#wrapper .containr img { 
+    max-width: 102px; 
+    float: left; 
+    margin: 17px 10px 10px 10px; 
+    border-radius: 50%;
+} 
+
+#wrapper .containr.container1 img { box-shadow: 5px 4px 21px 2px rgba(0,0,0,0.6);}
+#wrapper .containr.container2 img { box-shadow: 5px 4px 21px 2px rgba(0,0,0,0.6);}
+#wrapper .containr.container3 img { box-shadow: 5px 4px 21px 2px rgba(0,0,0,0.6);}
+#wrapper .containr.container4 img { box-shadow: 5px 4px 21px 2px rgba(0,0,0,0.6);}
+#wrapper .containr.container5 img { box-shadow: 5px 4px 21px 2px rgba(0,0,0,0.6);}
+/* #wrapper .containr.container6 img { box-shadow: 5px 4px 21px 2px rgba(0,0,0,0.6);} */
+
+#wrapper .containr.container4 img,
+#wrapper .containr.container5 img
+/*,#wrapper .containr.container6 img*/ {float: right; }
+
+#wrapper h3 { 
+    font-size: 1.5rem; 
+    font-family: Lato; 
+    float: left; 
+    padding-top: 10px;
+    padding-left: 20px; 
+    line-height: 1.1; 
+}
+
+#wrapper h3 p { 
+    opacity: 0.7; 
+}
+
+
+#wrapper .container4 h3, 
+#wrapper .container5 h3
+/*, #wrapper .container6 h3*/ {
+    font-size: 1.5rem;
+    font-family: Lato;
+    position: absolute;
+    right: 150px;
+    top: 10px;
+    text-align: right;
+}
+#wrapper .containr.container4 p,
+#wrapper .containr.container5 p
+/*,#wrapper .containr.container6 p*/{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    max-width: 260px;
+}
+
+#wrapper .container1 {
+    /* PLACEMENT */ 
+    margin-right: -60px; 
+    margin-top: -110px; 
+    /******************/
+
+    animation: none;  
+    animation-delay: 0s; 
+    background: #557f8d; 
+    border-radius: 80px; 
+    opacity: 1;
+}
+
+#wrapper .container1::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-left: 12px solid transparent;
+	border-right: 11px solid transparent;
+	border-bottom: 15px solid #557f8d;
+	margin: 126px 0 0 7px;
+	border-radius: 3%;
+	outline: 1px solid transparent;
+    transform: rotate(-8deg);
+	-webkit-transform: rotateZ(-8deg);
+    transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+}
+
+/*======================================*/
+
+#wrapper .container2 {
+    /* PLACEMENT */ 
+    margin-top: 150px; 
+    margin-right: -145px;
+    /*******************/
+
+    animation-delay: 2s; 
+    background-color: #00adb4; 
+    border-radius: 80px;
+}  
+
+#wrapper .container2::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-left: 12px solid transparent;
+	border-right: 11px solid transparent;
+	border-bottom: 15px solid #00adb4;
+	-webkit-transform: rotate(230deg);
+	transform: rotate(-90deg);
+	margin: 70px 0 0 -20px;
+ 	border-radius: 3%;
+}
+
+/*======================================*/
+
+#wrapper .container3 { 
+
+    /* PLACEMENT */
+    margin-top: 370px; 
+    margin-right: 60px; 
+    /******************/
+
+    animation-delay: 3.75s; 
+    transition: all 400ms ease-in-out; 
+    background-color: #41b5ac; 
+    border-radius: 80px;
+}
+
+#wrapper .container3::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-left: 12px solid transparent;
+	border-right: 11px solid transparent;
+	border-bottom: 15px solid #41b5ac;
+	margin: 0px 0px 2px 19px;
+	border-radius: 3%;
+	outline: 1px solid transparent;
+    transform: rotateZ(65deg);
+	-webkit-transform: rotateZ(90deg);
+    transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+}
+
+/*======================================*/
+
+#wrapper .container4 {
+    
+    /* PLACEMENT */
+    margin-top: 209px; 
+    margin-right: 630px; 
+    /*****************/
+
+    animation-delay: 5.5s; 
+    transition: all 400ms ease-in-out; 
+    background-color: #557f8d; 
+    border-radius: 80px;
+}
+
+#wrapper .container4::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-left: 12px solid transparent;
+	border-right: 11px solid transparent;
+	border-bottom: 15px solid #557f8d;
+	margin: 20px 0 1px 383px;
+	border-radius: 3%;
+	outline: 1px solid transparent;
+    transform: rotateZ(58deg);
+	-webkit-transform: rotateZ(58deg);
+    transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+}
+
+/*======================================*/
+
+#wrapper .container5 { 
+
+    /* PLACEMENT */
+    margin-top: -83px; 
+    margin-right: 581px; 
+    /******************/
+
+    animation-delay: 7.25s; 
+    transition: all 400ms ease-in-out; 
+    background-color: #00adb4; 
+    border-radius: 80px;
+}
+
+
+#wrapper .container5::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-left: 12px solid transparent;
+	border-right: 11px solid transparent;
+	border-bottom: 15px solid #00adb4;
+	-webkit-transform: rotate(230deg);
+	transform: rotate(241deg);
+	margin: 101px 0 0 388px;
+  	border-radius: 3%; 
+}
+
+/*======================================*/
+
+/* #wrapper .container6 { 
+    margin-top: -110px; 
+    margin-right: 560px; 
+    animation-delay:8.75s; 
+    transition: all 400ms ease-in-out; 
+    background-color: #40b2aa; 
+    border-radius: 80px;
+} */
+ 
+/* 
+#wrapper .container6::after {  
+	content: "";
+	display: block; 
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-left: 12px solid transparent;
+	border-right: 11px solid transparent;
+	border-bottom: 15px solid #40b2aa;
+	margin: 123px 0 0 372px;
+	border-radius: 3%;
+	outline: 1px solid transparent;
+    transform: rotateZ(134deg);
+	-webkit-transform: rotateZ(134deg);
+    transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d; 
+}*/
